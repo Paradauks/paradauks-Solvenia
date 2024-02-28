@@ -1,0 +1,86 @@
+/*reset css*/
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+/* Définition du conteneur de la grille */
+
+body {
+background-color: #262626;
+
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 40px; /* Espacement entre les éléments de la grille */
+}
+
+/* Définition des éléments de la grille (boîtes) */
+.item {
+    background-color: #f0f0f0;
+    padding: 10px; /* Réduire la longueur des boîtes */
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 80px;
+}
+.item.item1{
+background-color: #747272;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.item.item2{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item3{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item4{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item5{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item6{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item7{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item8{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item9{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item10{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item11{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.item.item12{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
