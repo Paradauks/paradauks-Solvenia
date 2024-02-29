@@ -1,0 +1,86 @@
+/*reset css*/
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+/* Définition du conteneur de la grille */
+
+body {
+background-color: #262626;
+
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 40px; /* Espacement entre les éléments de la grille */
+}
+
+/* Définition des éléments de la grille (boîtes) */
+.wiki {
+    background-color: #f0f0f0;
+    padding: 10px; /* Réduire la longueur des boîtes */
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 80px;
+}
+.wiki.wiki1{
+background-color: #747272;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.wiki.wiki2{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki3{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki4{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki5{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki6{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki7{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki8{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki9{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki10{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki11{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.wiki.wiki12{
+    background-color: #747272;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
